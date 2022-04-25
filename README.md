@@ -41,9 +41,11 @@ Load the file, and you should see "Random" next to the PID part. If you have thi
 (You might need a game profile to setup that, just leave blank stuff, it's not necessary to have accurate informations)
 
 ![image](https://user-images.githubusercontent.com/25870563/165130018-0cff7cf9-1743-4cd1-8c81-48f262481fbd.png)
+
 ^The right display for PokeFinder (Gen 5 Event)
 
 ![image](https://user-images.githubusercontent.com/25870563/165130213-1ba2787a-a681-4230-b744-631e7164fd23.png)
+
 ^The right display for 3DSRNGTool (Gen 6/7 Event)
 
 
