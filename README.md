@@ -1,42 +1,29 @@
-# Project Pokémon Events Gallery
+# Events Without Locks
 
 ### What is this?
-The collective effort of the Project Pokémon (and other) communities to preserve as much event Pokémon information as possible.
+The idea of this project is to allow Shiny Hunters, RNGers or whatever to be able to get Shiny from WonderCards events who are either Locked or Forced Shiny. 
+
+Usually, people use a cheat code or a modified version of the games in order to be able to Shiny Hunt them. In fact, there's a way to just edit the file itself to be able to Shiny Hunt it. If it doesn't imply to edit your game / apply a cheat code, it still needs a way to be able to dump a save and being able to Import a File. You can find more informations about this in the "How I use this?" part.
+
+The focus will be on Gen 5/6/7. I might support Gen 4 and 8 in the future, but it's not really a priority for me atm.
+
+
+### Credits
+Huge props to the [ProjectPokemon.org](https://projectpokemon.org/home/files/category/2-event-gallery/) for dumping, getting all these WonderCards during     all these years. Huge thanks also for allowing me to do that.
+
+
 
 ### How do I use this?
-#### • Legality with [PKHeX](https://projectpokemon.org/home/files/file/1-pkhex/)
-1. Download this repository.
-1. Extract the contents to a folder `mgdb` in the same folder as `PKHeX.exe`.
+
+Find the WonderCard you want, download it from here. For that, go to any file, and click on the Download button. 
+
+I've plans to setup some Release, but not at the moment since a lot of work is necesary. (Little note : You'll not find any item WC here, same as any WC without Shiny Locks from scratch)
 
 #### • Injection with PKHeX
 1. Find the specific wondercard or Pokémon file.
-1. Drag/drop the file onto PKHeX in the spot where you want that Pokémon.
+2. Drag/drop the file onto PKHeX in the spot where you want that Pokémon.
 
-### How do I get Gen 8 Wondercards if they are not on the save file?
-Pokemon LGPE and Sword/Shield use a system called BCAT. BCAT data is synchronized when your game goes online.
-Use [JKSV](https://github.com/J-D-K/JKSV) to export the BCAT files. BCAT includes wondercards, wild area news, tournament rules, etc.
-See the section below on how to contribute your bcat export.
+#### I want a specific Event ? How do I find it ?
 
-### What is a post event redemption?
-These are events that were redeemed using the original hardware (such as PCNY Gotta Catch 'Em All) after the original event period.
-Not all events will be categorized like this due to various reasons. Please open an [issue](https://github.com/projectpokemon/EventsGallery/issues/new) for questions.
+The best solution is to go to the [Event Gallery](https://projectpokemon.org/home/files/category/2-event-gallery/) and search for the Event you want. You can refer by either the name fo the file, or by downloading it and comparing the names of both, since I'll not change the name of the files. Easy to figure out.
 
-### I don't see _X_ event. Can I contribute it?
-Sure, there are several ways.
-1. Create an [issue](https://github.com/projectpokemon/EventsGallery/issues/new) and attach the event
-1. Create a [pull request](https://github.com/projectpokemon/EventsGallery/compare)
-1. Make a [contribution post](https://projectpokemon.org/home/forums/forum/64-event-contributions/) on our forums
-
-### It looks like some Gen 4 events are hacks, what's up with that?
-Unfortunately some of the Gen 4 wondercards are missing but we have the mystery gifts (PGT).
-To keep everything consistent, the PGTs were converted to wondercards with placeholder data.
-There is a list of missing wondercards [here](https://rebrand.ly/missib7ab).
-Do you have one of these events? Please contribute it!
-
-### Where are the Gen 4 PCD files?
-To keep the format consistent, all PCDs were converted to WC4 format.
-The data is the same except the Pokémon template itself is decoded, just like PK4 files.
-
-### Where are your individual Pokémon files for Gen 4+?
-Posting the individual Pokémon not only contributes to cloning, but does not help our legality research efforts.
-The exception are GTS traded Pokémon from Daisuki, of which many are missing or incorrect in the gallery.
